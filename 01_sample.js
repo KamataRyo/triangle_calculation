@@ -23,13 +23,11 @@ for(var z=1; z<=n; z++){
 document.write(as);
 };
 
+//****以下追加分****
 
-//****以下鎌田追加****
-
-// (1)
 // a,b,c全てを総当たりで解析するパターン
 // 計算量:O(n3)
-var f3 = function(n){
+var f1 = function(n){
 	var isTriangle = false;
 	var result = 0;
 	for (var a = 1; a < n + 1 ; a++) {
@@ -44,7 +42,6 @@ var f3 = function(n){
 	document.write(result);
 };
 
-// (2)
 // a,bのみを解析するパターン
 // 計算量:O(n2)
 var f2 = function(n){
@@ -71,3 +68,14 @@ var f2 = function(n){
 	};	
 	document.write(result);
 };
+
+
+
+
+
+
+
+
+
+
+
